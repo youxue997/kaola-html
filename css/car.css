@@ -1,0 +1,508 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.top{
+	height: 30px;
+	background: black repeat-x;
+	position: relative;
+	z-index: 9;
+}
+.loginbar{
+	width: 192px;
+	height: 30px;
+	margin-left: 104px;
+	background: transparent;
+	line-height: 30px;
+	font-size: 15px;
+	float: left;
+	color:#757575;
+	font-size: 12px;
+}
+.loginbar a{
+	color:#757575;
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 20px;
+}
+.logo{
+	width: 76px;
+	height: 30px;
+	float: left;
+	background: transparent;
+	line-height: 30px;
+	text-decoration: none;
+}
+.logo a{
+	float: right;
+	color:#757575;
+	font-size: 12px;
+    text-decoration: none;
+}
+.top ul{
+	width: 714px;
+	height: 30px;
+	float: right;
+	background: transparent;
+}
+.top li{
+	float: left;
+}
+.top ul a{
+	text-decoration: none;
+	color:#757575;
+	font-size: 12px;
+	line-height: 30px;
+
+}
+.top ul a:hover{
+	color: white;
+}
+.top ul span{
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.top ul div{
+	width: 90px;
+	height: 30px;
+	background: transparent;
+	text-align: center;
+	line-height: 30px;
+	color:#757575;
+	font-size: 12px;
+	cursor: pointer;
+}
+.top ul div:hover{
+	background: white;
+
+}
+.top ul div a:hover{
+	color: red;
+}
+
+.top .munu1{
+	height: 270px;
+	width: 130px;
+	background:white; 
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+
+}
+.top .munu2{
+	height: 150px;
+	width: 140px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu3{
+	height: 120px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu4{
+	height: 30px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu5{
+	height: 120px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+
+.top .munu1 li,.top .munu3 li,.top .munu4 li,.top .munu5 li{	
+	margin-left: 20px;
+}
+
+.banner{
+	width: 1099px;
+	height: 339px;
+	margin:0px auto;
+}
+.banner img{
+	padding-right: 96px;
+}
+.banner .car{
+	width: 313px;
+	height: 147px;
+	margin:107px auto;
+}
+.banner .car span{
+	font-size: 40px; color: red;float: left;
+	margin-right: 14px;
+}
+.banner .car a{
+		text-decoration: none;
+		color: #d12147;
+}
+.banner .car a:hover{
+	color:red;
+}
+
+.genju{
+	width: 1099px;
+	height: 344px;
+	margin:0px auto;
+}
+.genju .where{
+	width: 1099px;
+	height: 38px;
+}
+.genju .where .here{
+	width: 294px;
+	height: 38px;
+}
+.genju .where p{
+	font-size: 25px;
+	float: left;
+}
+.genju .where span{
+	float: right;
+	margin-right: 10px;
+	font-size: 13px;
+	color: #757575;
+	margin-top: 15px;
+}
+.genju .box{
+	height: 304px;
+	width: 1099px;
+}
+.genju .box ul{
+	height: 304px;
+	width: 1099px;
+}
+.genju .box ul li{
+	height: 304px;
+	width: 205px;
+	margin-right: 15px;
+	float:left;
+	border:1px solid rgba(0,0,0,0.2);
+}
+.genju .box ul li:nth-of-type(5){
+	margin-right: 0px;
+}
+.genju .box li img{
+	width: 204px;height: 204px;
+}
+.genju .box li .p1{
+	padding: 0px 15px;
+	font-size: 12px;
+	margin-bottom: 9px;
+}
+.genju .box li a{
+	font-size: 12px;
+}
+.genju .box li span{
+	margin-left: 15px;
+}
+.genju .box li .span1{
+	color: red;
+}
+.genju .box li .span2{
+	color:  #757575;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.genju .box li a{
+	text-decoration: none;
+	margin-left: 15px;color: #757575;
+}
+.genju .box li a:hover{
+	text-decoration: underline;
+
+}
+
+.we{
+	width: 1099px;
+	height: 344px;
+	margin: 35px auto;
+}
+.we .where{
+	width: 1099px;
+	height: 38px;
+}
+.we .where .here{
+	width: 294px;
+	height: 38px;
+}
+.we .where p{
+	font-size: 25px;
+	float: left;
+}
+.we .where span{
+	float: right;
+	margin-right: 10px;
+	font-size: 13px;
+	color: #757575;
+	margin-top: 15px;
+}
+.we .box{
+	height: 304px;
+	width: 1099px;
+}
+.we .box ul{
+	height: 304px;
+	width: 1099px;
+}
+.we .box ul li{
+	height: 304px;
+	width: 205px;
+	margin-right: 15px;
+	float:left;
+	border:1px solid rgba(0,0,0,0.2);
+}
+.we .box ul li:nth-of-type(5){
+	margin-right: 0px;
+}
+.we .box li img{
+	width: 204px;height: 204px;
+}
+.we .box li .p1{
+	padding: 0px 15px;
+	font-size: 12px;
+	margin-bottom: 9px;
+}
+.we .box li a{
+	font-size: 12px;
+}
+.we .box li span{
+	margin-left: 15px;
+}
+.we .box li .span1{
+	color: red;
+}
+.we .box li .span2{
+	color:  #757575;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.we .box li a{
+	text-decoration: none;
+	margin-left: 15px;color: #757575;
+}
+.we .box li a:hover{
+	text-decoration: underline;
+
+}
+.space{
+	width: 100%;
+	height: 95px;
+}
+
+.content{
+	width: 100%;
+	height: 374px;
+	background: white;
+	margin-top: 95px;
+	margin: auto;
+
+}
+
+.content .banner{
+	width: 100%;
+	height: 146px;
+	position: relative;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.content .banner ul{
+	width: 1100px;
+	height: 48px;
+	position: absolute;
+	margin: 49px 124px;
+}
+.content .banner ul li{
+	width: 204px;
+	height: 48px;
+	float: left;
+	margin-right: 71px;
+}
+.content .banner ul li:nth-of-type(1){
+	margin-left:58px; 
+}
+.content .banner ul li:nth-of-type(4){
+	margin-right:0px; 
+}
+.content .banner ul li .round{
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	border:1px solid #757575;
+	text-align: center;
+	line-height: 46px;
+	font-size: 22px;
+	font-weight: bold;
+	float: left;
+}
+
+.content .banner ul li strong{
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.content .banner ul li span{
+	float: left;
+	font-size: 14px;
+}
+.content .bottom{
+	width: 1100px;
+	height: 173px;
+	margin: 45px auto;
+}
+.content .bottom .left{
+	width: 258px;
+	height: 128px;
+	float: left;
+}
+.content .bottom img{
+	width: 220px;
+}
+.content .bottom .wechat{
+	width: 218px;
+	height: 32px;
+	position: relative;
+	margin-top: 22px;
+}
+.content .bottom .wechat h2{
+	line-height: 32px;
+	font-size: 12px;
+	float: left;
+}
+.content .bottom .wechat span{
+	font-size: 32px;
+	margin-left: 11px;
+	cursor: pointer;
+}
+.content .bottom .wechat span .img1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:32px;
+	left: 25px;
+	display: none;
+	border:1px solid #757575;
+
+}
+.content .bottom .wechat span .img2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:32px;
+	left: 67px;
+	display: none;
+	border:1px solid #757575;
+}
+.content ol{
+	width: 819px;
+	height: 139px;
+	float: right;
+	color: #757575;
+}
+.content ol li{
+	width: 121px;
+	height: 139px;
+	float: left;
+}
+.content ol li:nth-of-type(5){
+	width: 110px;
+	height: 139px;
+}
+.content ol li p{
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+.content ol li span{
+	margin-right: 60px;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.content ol img{
+    width: 108px;height: 108px;border:1px solid #757575;
+}
+.content ol .tu{
+	width: 225px;
+	height: 139px;
+	float: right;
+}
+.content ol .tu li{
+	width: 108px;
+	height: 108px;
+	float: left;
+	margin-right: 9px;
+}
+.content ol .tu li:nth-of-type(2){
+	margin-right: 0px;
+}
+.content ol .tu li img{
+     height: 108px;
+     width: 108px;
+}
+.content ol .tu li p{
+	font-size: 12px;
+	text-align: center;
+}
+.footer{
+	height: 150px;
+	width: 100%;
+	margin: 0px auto;
+	background: transparent;
+	color: #6a6f74;
+	background: #333333;
+
+}
+.footer ul{
+	padding-top: 11px;
+}
+.footer li{
+	padding-top: 8px;
+}
+.footer li p{
+	font-size: 12px;
+	text-align: center;
+
+
+}
+.footer span{
+	margin-left: 25px;
+	text-align: center;
+
+}
+.footer .jing{
+	height: 20px;
+	width: 18px;
+	padding-right: 1px;
+}
+.footer .shen{
+	width: 80px;
+	height: 30px;
+}
+.footer .guo{
+	width: 27px;
+	height: 27px;
+	padding-left: 10px;
+
+}
+.footer .di{
+	width: 120px;
+	background: transparent;
+	margin: 0px auto;
+	padding-top: 13px;
+}

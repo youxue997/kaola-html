@@ -1,0 +1,1559 @@
+.top{
+	height: 30px;
+	background: black repeat-x;
+	position: relative;
+	z-index: 9;
+}
+.loginbar{
+	width: 192px;
+	height: 30px;
+	margin-left: 104px;
+	background: transparent;
+	line-height: 30px;
+	font-size: 15px;
+	float: left;
+	color:#757575;
+	font-size: 12px;
+}
+.loginbar a{
+	color:#757575;
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 20px;
+}
+.logo{
+	width: 76px;
+	height: 30px;
+	float: left;
+	background: transparent;
+	line-height: 30px;
+	text-decoration: none;
+}
+.logo a{
+	float: right;
+	color:#757575;
+	font-size: 12px;
+    text-decoration: none;
+}
+.top ul{
+	width: 714px;
+	height: 30px;
+	float: right;
+	background: transparent;
+}
+.top li{
+	float: left;
+}
+.top ul a{
+	text-decoration: none;
+	color:#757575;
+	font-size: 12px;
+	line-height: 30px;
+
+}
+.top ul a:hover{
+	color: white;
+}
+.top ul span{
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.top ul div{
+	width: 90px;
+	height: 30px;
+	background: transparent;
+	text-align: center;
+	line-height: 30px;
+	color:#757575;
+	font-size: 12px;
+	cursor: pointer;
+}
+.top ul div:hover{
+	background: white;
+
+}
+.top .yu:hover{
+	color: red;
+}
+
+.top .munu1{
+	height: 270px;
+	width: 130px;
+	background:white; 
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+
+}
+.top .munu2{
+	height: 150px;
+	width: 140px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu3{
+	height: 120px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu4{
+	height: 30px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+.top .munu5{
+	height: 120px;
+	width: 130px;
+	background: white;
+	display: none;
+	border-right:1px solid rgba(117, 117, 117, 0.624);
+	border-bottom:1px solid rgba(117, 117, 117, 0.624);
+	border-left:1px solid rgba(117, 117, 117, 0.624);
+}
+
+.top .munu1 li,.top .munu3 li,.top .munu4 li,.top .munu5 li{	
+	margin-left: 20px;
+}
+
+
+
+
+.header{
+	height: 101px;
+	width: 1014px;
+	margin: 0px auto;
+	background: transparent;
+	position: relative;
+}
+.header .m2{
+	padding-top: 21px;
+}
+.sou{
+	width: 672px;
+	height: 101px;
+	float: right;
+	background: transparent;
+	position: absolute;
+	top:0;
+	left: 469px;
+}
+.topsearch {
+	width: 670px;
+	height: 40px;
+	margin-top: 34px;
+	background: transparent;
+}
+.topsearch .wrap{
+	width: 479px;
+	height: 36px;
+	float: left;
+	border-radius: 24px 0px 0px 24px;
+	border: 2px solid #ff0b1a;
+	border-radius: 20px;
+	background: transparent;
+	position: relative;
+}
+.wrap input{
+	height: 20px;
+	width: 417px;
+	padding-top: -10px;
+	margin: 0px 17px 6px 2px;
+	border: none;
+	outline: none;
+}
+.wrap .boxbackground{
+	width: 60px;
+	height: 40px;
+	background: #ff2337;
+	position: absolute;
+	border-radius: 40px;
+	float: right;
+	top:64px;
+	right:328px;
+	top:-2px;
+	right: -1px;
+}
+/*.header .m1{
+	padding-top: 0px;
+
+}*/
+.wrap .tu{
+      width: 20px;
+      height: 20px;
+      float: left;
+      background: red;
+
+}
+.boxbackground .m1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.wrap .m3{
+	padding-top: 3px;
+    padding-left: 5px;
+}
+.shop{
+	width: 106px;
+	height: 36px;
+	float: right;
+	margin-top: -34px;
+	background: transparent;
+	border-radius: 20px;
+	border: 2px solid red;
+}
+.shop a{
+	color:#757575;
+	text-decoration: none;
+	line-height: 35px;
+	margin-left: 10px;
+	
+}
+#span1{
+	margin-left: 10px;
+}
+.banner::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.banner{
+	width: 1014px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	margin: 0px auto;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+
+}
+.banner .munu{
+	width: 164px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	/*text-align: center;*/
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	cursor: pointer;
+	 background-image: linear-gradient(to right, red , #f06);
+	position: relative;
+}
+.banner .munu ol{
+	width: 164px;
+	height: 470px;
+	display: none;
+    background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to right, red , #f06);
+    position: relative;
+}
+.banner ol .li1{
+	line-height: 40px;
+	width: 164px;
+	float: left;
+	border-top: 1px solid rgba(200, 200, 200, 0.5);
+
+}
+.banner .minimunu1,.banner .minimunu2,.banner .minimunu3,.banner .minimunu4,.banner .minimunu5,.banner .minimunu6,.banner .minimunu7,.banner .minimunu8,.banner .minimunu9,.banner .minimunu10,.banner .minimunu11{
+	top:0;
+	z-index: 2;
+}
+
+
+.banner .minimunu1{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+	top:0;
+}
+.banner .minimunu01{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu1 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+}
+.banner .minimunu1 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu01 .ul1,.banner .minimunu01 .ul3{
+	width: 305px;
+	height: 156px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu01 .ul2,.banner .minimunu01 .ul4{
+	width: 355px;
+	height: 156px;
+	/*font-size: 14px;*/
+	float: right;
+}
+.banner .minimunu01 .ul5{
+	margin-left: 22px;
+	float: left;
+}
+
+.banner .minimunu01 .ul1 li,.banner .minimunu01 .ul2 li,.banner .minimunu01 .ul3 li,.banner .minimunu01 .ul4 li,.banner .minimunu01 .ul5 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu02{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu02 .ul6{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu02 .ul6 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu02 .ul6 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu02 .ul6 .ping{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+.banner .minimunu2{
+	width: 932px;
+	height: 470px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu03{
+	width: 694px;
+	height: 470px;
+	background: transparent;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu03 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu2 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu03 .ul7{
+	width: 272px;
+	height: 172px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu03 .ul8{
+	width: 282px;
+	height: 196px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu03 .ul9{
+	width: 250px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu03 .ul10{
+	width: 286px;
+	height: 112px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 40px;
+}
+.banner .minimunu03 .ul11{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+}
+
+.banner .minimunu03 .ul13 li,.banner .minimunu03 .ul7 li,.banner .minimunu03 .ul8 li,.banner .minimunu03 .ul9 li,.banner .minimunu03 .ul10 li,.banner .minimunu03 .ul11 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu04{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu04 .ul12{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu04 .ul12 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu04 .ul12 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu04 .ul12 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.banner .minimunu3{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu05{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu05 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu3 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu05 .ul14{
+	width: 262px;
+	height: 230px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu05 .ul15{
+	width: 282px;
+	height: 196px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu05 .ul16{
+	width: 268px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu05 .ul17{
+	width: 286px;
+	height: 112px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 40px;
+}
+.banner .minimunu05 .ul18{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+}
+.banner .minimunu05 .ul14 li,.banner .minimunu05 .ul15 li,.banner .minimunu05 .ul16 li,.banner .minimunu05 .ul17 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu06{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu06 .ul18{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu06 .ul18 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu06 .ul18 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu06 .ul18 .yingyang{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+.banner .minimunu4{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu07{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu07 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu4 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu07 .ul19{
+	width: 272px;
+	height: 120px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu07 .ul20{
+	width: 262px;
+	height: 120px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu07 .ul21{
+	width: 250px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu07 .ul22{
+	width: 286px;
+	height: 112px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 40px;
+}
+.banner .minimunu07 .ul23{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+	width: 254px;
+	height: 112px;
+}
+.banner .minimunu07 .ul24{
+	margin-left: 22px;
+	float: left;
+	width: 270px;
+	height: 112px;
+}
+.banner .minimunu07 .ul19 li,.banner .minimunu07 .ul20 li,.banner .minimunu07 .ul21 li,.banner .minimunu07 .ul22 li,.banner .minimunu07 .ul23 li,.banner .minimunu07 .ul24 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu08{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu08 .ul25{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu08 .ul25 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu08 .ul25 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu08 .ul25 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+.banner .minimunu5{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu09{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu09 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu5 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu09 .ul26{
+	width: 272px;
+	height: 120px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu09 .ul27{
+	width: 262px;
+	height: 120px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu09 .ul28{
+	width: 280px;
+	height: 80px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+
+.banner .minimunu09 .ul29{
+	width: 286px;
+	height: 80px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 40px;
+}
+.banner .minimunu09 .ul30{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+	width: 254px;
+	height: 112px;
+}
+.banner .minimunu09 .ul31{
+	margin-left: 22px;
+	float: left;
+	width: 270px;
+	height: 112px;
+}
+.banner .minimunu09 .ul26 li,.banner .minimunu09 .ul27 li,.banner .minimunu09 .ul28 li,.banner .minimunu09 .ul29 li,.banner .minimunu09 .ul30 li,.banner .minimunu09 .ul31 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu10{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu10 .ul32{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu10 .ul32 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu10 .ul32 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu10 .ul32 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+.banner .minimunu6{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu11{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu11 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu6 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu11 .ul33{
+	width: 287px;
+	height: 270px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 30px;
+}
+.banner .minimunu11 .ul34{
+	width: 282px;
+	height: 196px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu11 .ul35{
+	width: 285px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu11 .ul37{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+}
+.banner .minimunu11 .ul33 li,.banner .minimunu11 .ul34 li,.banner .minimunu11 .ul35 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu12{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu12 .ul37{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu12 .ul37 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu12 .ul37 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu12 .ul37 .yingyang{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+.banner .minimunu7{
+	width: 932px;
+	height: 470px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu13{
+	width: 694px;
+	height: 470px;
+	background: transparent;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu13 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu13 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu13 .ul38{
+	width: 272px;
+	height: 120px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu13 .ul39{
+	width: 282px;
+	height: 120px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu13 .ul40{
+	width: 250px;
+	height: 143px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu13 .ul41{
+	width: 295px;
+	height: 143px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 35px;
+}
+.banner .minimunu13 .ul42{
+	margin-left: 22px;
+	width: 298px;
+	float: left;
+	
+}
+.banner .minimunu13 .ul43{
+	margin-left: 22px;
+	width: 295px;
+	float: right;
+	padding-right: 34px;
+	
+}
+
+.banner .minimunu13 .ul38 li,.banner .minimunu13 .ul39 li,.banner .minimunu13 .ul40 li,.banner .minimunu13 .ul41 li,.banner .minimunu13 .ul42 li,.banner .minimunu13 .ul43 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu14{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu14 .ul44{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu14 .ul44 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu14 .ul44 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu14 .ul44 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+.banner .minimunu8{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu15{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu15 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu8 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu15 .ul14{
+	width: 262px;
+	height: 210px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu15 .ul15{
+	width: 282px;
+	height: 196px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu15 .ul16{
+	width: 268px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu15 .ul17{
+	width: 286px;
+	height: 112px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 40px;
+}
+.banner .minimunu15 .ul18{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+}
+.banner .minimunu15 .ul14 li,.banner .minimunu15 .ul15 li,.banner .minimunu15 .ul16 li,.banner .minimunu15 .ul17 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu16{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu16 .ul18{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu16 .ul18 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu16 .ul18 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu16 .ul18 .yingyang{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+.banner .minimunu9{
+	width: 932px;
+	height: 470px;
+	background: transparent;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+}
+.banner .minimunu17{
+	width: 694px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu9 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+}
+.banner .minimunu9 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu17 .ul1{
+	width: 305px;
+	height: 184px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu17 .ul2{
+	width: 355px;
+	height: 184px;
+	/*font-size: 14px;*/
+	float: right;
+}
+.banner .minimunu17 .ul3{
+     margin-left: 22px;
+     width: 305px;
+     height: 75px;
+     float: left;
+    margin-right: 30px;
+}
+.banner .minimunu17 .ul4{
+     width: 300px;
+     height: 75px;
+     float: right;
+     margin-right: 30px;
+}
+
+
+.banner .minimunu17 .ul5{
+	margin-left: 22px;
+	float: left;
+	width: 300px;
+}
+
+.banner .minimunu17 .ul1 li,.banner .minimunu17 .ul2 li,.banner .minimunu17 .ul3 li,.banner .minimunu17 .ul4 li,.banner .minimunu17 .ul5 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu18{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu18 .ul6{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu18 .ul6 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu18 .ul6 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu18 .ul6 .ping{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+.banner .minimunua{
+	width: 932px;
+	height: 470px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+	top:0;
+}
+.banner .minimunu19{
+	width: 694px;
+	height: 470px;
+	background: transparent;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu19 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunua span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu19 .ul7{
+	width: 272px;
+	height: 172px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu19 .ul8{
+	width: 282px;
+	height: 196px;
+	padding-right: 59px;
+	float: right;
+}
+.banner .minimunu19 .ul9{
+	width: 250px;
+	height: 112px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 78px;
+}
+
+.banner .minimunu19 .ul10{
+	width: 286px;
+	height: 149px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 56px;
+}
+.banner .minimunu19 .ul11{
+	margin-left: 22px;
+	float: left;
+	padding-right: 70px;
+}
+
+.banner .minimunu19 .ul13 li,.banner .minimunu19 .ul7 li,.banner .minimunu19 .ul8 li,.banner .minimunu19 .ul9 li,.banner .minimunu19 .ul10 li,.banner .minimunu19 .ul11 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu20{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu20 .ul12{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu20 .ul12 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu20 .ul12 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu20 .ul12 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+.banner .minimunub{
+	width: 932px;
+	height: 470px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+	left: 164px;
+	border:1px solid red;
+	display: none;
+	top:0;
+}
+.banner .minimunu21{
+	width: 694px;
+	height: 470px;
+	background: transparent;
+	position: absolute;
+	float: left;
+}
+
+
+.banner .minimunu21 p{
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	color: black;
+	font-weight: bold;
+	width: 657px;
+	margin-left: 22px;
+	float: left;
+}
+.banner .minimunu21 span{
+	margin-right: 500px;
+	padding-right: 278px;
+	font-size: 13px;
+	
+}
+.banner .minimunu21 .ul38{
+	width: 272px;
+	height: 150px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 50px;
+}
+.banner .minimunu21 .ul39{
+	width: 282px;
+	height: 120px;
+	padding-right: 64px;
+	float: right;
+}
+.banner .minimunu21 .ul40{
+	width: 270px;
+	height: 110px;
+	margin-left: 22px;
+	float: left;
+	padding-right: 57px;
+}
+
+.banner .minimunu21 .ul41{
+	width: 295px;
+	height: 110px;
+	/*font-size: 14px;*/
+	float: right;
+	padding-right: 35px;
+}
+.banner .minimunu21 .ul42{
+	margin-left: 22px;
+	width: 298px;
+	float: left;
+	
+}
+.banner .minimunu21 .ul43{
+	margin-left: 22px;
+	width: 295px;
+	float: right;
+	padding-right: 34px;
+	
+}
+
+.banner .minimunu21 .ul38 li,.banner .minimunu21 .ul39 li,.banner .minimunu21 .ul40 li,.banner .minimunu21 .ul41 li,.banner .minimunu21 .ul42 li,.banner .minimunu21 .ul43 li{
+	float: left;
+	color: #6c6c6c;
+	font-size: 13px;
+	margin-right: 20px;
+}
+.banner .minimunu22{
+	width: 238px;
+	height: 470px;
+	background: rgb(246,246,246);
+	position: absolute;
+	float: right;
+	left: 694px;
+}
+.banner .minimunu22 .ul44{
+	width: 220px;
+	height: 470px;
+	margin-left: 10px;
+}
+.banner .minimunu22 .ul44 li{
+	float: left;
+	padding:2px;
+}
+.banner .minimunu22 .ul44 img{	
+	float: left;
+	width: 105px;
+}
+.banner .minimunu22 .ul44 .baby{
+	width: 215px;
+	height: 88px;
+	padding-top: 25px;
+}.banner .minimunu21 u{
+	margin-right: 180px;
+	text-decoration: none;
+
+}
+
+.banner .munu span{
+	line-height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+
+.banner .submunu{
+	height: 40px;
+	width: 803px;
+	background: transparent;
+	float: right;
+}
+.banner .submunu .shou a{
+      font-weight: bolder;
+      font-size: 15.5px;
+      line-height: 40px;
+      float: left;
+      padding-right:40px;
+      text-decoration: none;
+      color: black;
+}
+.banner .submunu a:hover{
+       color: red;
+}
+
+.introduce{
+	width: 1090px;
+	height: 270px;
+	background: skyblue;
+	margin:20px auto;
+}
+.introduce .introducepic{
+	width: 540px;
+	height: 270px;
+	background: yellow;
+	float: left;
+}
+.introduce .introducewrite{
+	height: 270px;
+	width: 550px;
+	background: orange;
+	float: right;
+}
+.introduce .sk2{
+	width: 165px;
+	height: 68px;
+	background: blue;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.introduce .sk2 img{
+	width: 68px;
+	float: left;
+}
+.introduce .sk2 .span1{
+	font-size: 12px;
+	margin-left: 11px;
+}
+.introduce .sk2 .span2{
+	margin-top: 16px;
+	margin-left: 11px;
+	margin-right: 28px;
+}
+.introduce .introducewrite .write{
+	width: 551px;
+	height: 116px;
+	background: white;
+}
+.introduce .introducewrite .write p{
+	font-size: 12px;
+	margin: 8px 20px;
+}
+.introduce .atten{
+	line-height: 24px;
+	width: 207px;
+	background: green;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #757575;
+	position: relative;
+}
+.introduce .atten .cu{
+	font-weight: bold;
+	color: black;
+}
+.introduce .atten .attention{
+	width: 69px;
+	line-height: 24px;
+	background: #e31436;
+	border-radius: 25px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	position: absolute;
+}
+.introduce .atten .noneattention{
+	width: 69px;
+	line-height: 24px;
+	background: #757575;
+	border-radius: 25px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	float: left;
+	display: none;
+	cursor: pointer;
+	position: absolute;
+}

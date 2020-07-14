@@ -1,0 +1,354 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.header{
+	height: 100px;
+	width: 960px;
+	margin: 0px auto;
+	background: transparent;
+}
+.header .left{
+    margin-top: 20px;
+    float: left;
+} 
+.header .right{
+    /*margin-top: 10px;*/
+    float: right;
+} 
+.ban{
+	height: 600px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+.banner{
+	width: 960px;
+	height: 600px;
+	margin: 0px auto;
+	background: transparent;
+	
+}
+.banner .yuan1{
+        margin-left: 22px;
+        padding-top: 199px;
+        cursor: pointer;
+
+}
+.banner .mailbox{
+	width: 350px;
+	height: 352px;
+	background: white;
+	float: right;
+	margin-top: 123px;
+	border:1px solid #eaeaea;
+	display: none;
+
+}
+.banner .inputbox input,.banner .inputbox1 input{
+	width: 239px;
+	height: 34px;
+	outline-style: none;
+	border-style: none;
+}
+#box1,#box2,#box3{
+	height: 21px;
+	width: 35px;
+	float: left;
+	padding-left: 12px;
+	padding-top: 11px;
+}
+
+.mailbox .shouji{
+	height: 51px;
+	width: 350px;
+	background: #f8f8f8;
+	border:1px solid #eaeaea;
+	font-weight: bold;
+	font-size: 18px;
+    line-height: 51px;
+}
+
+.mailbox .inputbox,.mailbox .inputbox1{
+	width: 286px;
+	height: 34px;
+	background: transparent;
+	margin: 11px auto;
+	border:1px solid  rgba(0,0,0,0.2);
+}
+
+.mailbox .mian{
+	margin-top: -40px;
+}
+.mailbox .mian .mian1{
+	margin-right: 124px;
+	padding-bottom: 21px;
+	color: #a1a1a1;
+}
+.mailbox .mian span{
+	margin-left: 40px;
+	margin-bottom: 21px;
+	font-size: 12px;
+	color: #a1a1a1;
+}
+.mailbox .mian p{
+	margin-left: 40px;
+	padding-top: 15px;
+	font-size: 12px;
+	color: #a1a1a1;
+}
+.mailbox .mian a{
+	color: #a1a1a1;
+	font-size: 12px;
+}
+.mailbox .wechat{
+	width: 350px;
+	height: 41px;
+	background: #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-top: 1px solid rgba(0,0,0,0.2);
+	margin-top: 40px;
+}
+.mailbox .wechat .p1{
+	margin-left: 40px;
+}
+
+
+
+
+
+.banner .zhuce{
+	width: 352px;
+	height: 568px;
+	background: white;
+	float: right;
+	margin-top: 16px;
+	border:1px solid #eaeaea;
+	/*display: none;*/
+
+}
+.banner .a2{
+	text-decoration: none;
+	font-size: 12px;
+	margin: 44px 40px 0px 197px ;
+	color: #a1a1a1;
+}
+.banner .shi{
+	margin-top: 22px;
+}
+.banner .zhuce .div1{
+	width: 286px;
+	height: 34px;
+	margin: 11px auto;
+	border:1px solid  rgba(0,0,0,0.2);
+}
+.banner .zhuce .div1 input{
+	width: 239px;
+	height: 34px;border-style: none;
+}
+/*.banner input{
+	width: 269px;
+	height: 34px;
+	margin: 11px 40px 16px 80px;
+	height: 34px;
+	width: 228px;
+}*/
+.zhuce img{
+	width: 269px;
+	margin: 16px 40px;
+}
+.zhuce .qing{
+	width: 269px;
+	height: 37px;
+	margin: 55px auto;
+	background: #eeeeee;
+	border:1px solid #d5d5d5;
+}
+.zhuce .qing1{
+	width: 171px;
+	height: 34px;
+	margin: 0px 0px;
+	float: left;
+
+}
+.qing .a1{
+	width: 96px;
+	height: 36px;
+	margin: 0px 10px;
+	color: #a1a1a1;
+	text-decoration: none;
+	line-height: 34px;
+	border:none;
+	font-size: 14px;
+	text-align: center;
+}
+.zhuce .shouji{
+	height: 51px;
+	width: 351px;
+	background: #f8f8f8;
+	border:1px solid #eaeaea;
+	font-weight: bold;
+	font-size: 18px;
+    line-height: 51px;
+   
+}
+.shouji .shou{
+	cursor: pointer;
+	color: #e31436;
+}
+.shouji .you{
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+.shouji span{
+	margin-left: 39px;
+	color: black;
+}
+.log{
+	width: 269px;
+	height: 36px;
+	background: #e31436;
+	color: white;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	margin:40px 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.zhuce .mian{
+	float: left;
+	color: #a1a1a1;
+	font-size: 12px;
+}
+.zhuce .mian{
+	margin-top: -40px;
+}
+.zhuce .mian .mian1{
+	margin-right: 124px;
+	padding-bottom: 21px;
+}
+.zhuce .mian span{
+	margin-left: 40px;
+	margin-bottom: 21px;
+}
+.zhuce .mian p{
+	margin-left: 40px;
+	padding-top: 5px;
+	
+}
+.zhuce .yinsi{
+	color: #a1a1a1;
+}
+.zhuce .mian .a2{
+	color: #a1a1a1;
+}
+.zhuce .wechat{
+	height: 40px;
+	width: 351px;
+	background: #f8f8f8;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#span1{
+	font-size: 22px;
+	color: #ff6000;
+	line-height: 40px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#span2{
+	font-size: 22px;
+	color: #79bdd7;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#span3{
+	font-size: 22px;
+	color: #92bc83;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#span4{
+	font-size: 22px;
+	color: #eba265;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#span5{
+	font-size: 22px;
+	color: #87a9da;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#span7{
+	font-size: 14px;
+}
+.wechat .p1{
+	margin-left: 40px;
+}
+.wechat a{
+	text-decoration: none;
+	color: #e31736;
+}
+.wechat a:hover{
+	text-decoration: underline;
+}
+    
+
+
+
+
+
+
+
+
+
+.footer{
+	height: 150px;
+	width: 960px;
+	margin: 0px auto;
+	background: transparent;
+	color: #6a6f74;
+
+}
+.footer ul{
+	padding-top: 11px;
+}
+.footer li{
+	padding-top: 8px;
+}
+.footer li p{
+	font-size: 12px;
+	text-align: center;
+
+
+}
+.footer span{
+	margin-left: 25px;
+	text-align: center;
+
+}
+.footer .jing{
+	height: 20px;
+	width: 18px;
+	padding-right: 1px;
+}
+.footer .shen{
+	width: 80px;
+	height: 30px;
+}
+.footer .guo{
+	width: 27px;
+	height: 27px;
+	padding-left: 10px;
+
+}
+.footer .di{
+	width: 120px;
+	background: transparent;
+	margin: 0px auto;
+	padding-top: 13px;
+}
